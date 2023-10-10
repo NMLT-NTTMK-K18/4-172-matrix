@@ -15,15 +15,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/KevinNitroG/NMLT-NTTMK-4-172-matrix?style=for-the-badge)
 [![GitHub contributors](https://img.shields.io/github/contributors/KevinNitroG/NMLT-NTTMK-4-172-matrix?style=for-the-badge)](../../../graphs/contributors)
 
-### CODE FACTOR
-
-[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/KevinNitroG/NMLT-NTTMK-4-172-matrix?style=for-the-badge)](https://www.codefactor.io/repository/github/kevinnitrog/NMLT-NTTMK-4-172-matrix)
-
-### DEEPSOURCE
-
-[![DeepSource](https://app.deepsource.com/gh/KevinNitroG/NMLT-NTTMK-4-172-matrix.svg/?label=active+issues&show_trend=true&token=zM_ICd2rrd00pjS5pf6hUAai)](https://app.deepsource.com/gh/KevinNitroG/NMLT-NTTMK-4-172-matrix/)
-[![DeepSource](https://app.deepsource.com/gh/KevinNitroG/NMLT-NTTMK-4-172-matrix.svg/?label=resolved+issues&show_trend=true&token=zM_ICd2rrd00pjS5pf6hUAai)](https://app.deepsource.com/gh/KevinNitroG/NMLT-NTTMK-4-172-matrix/)
-
 ## TOOL, PLATFORM, BOT, LANG
 
 <div class="svg-container" align="left">
@@ -37,8 +28,7 @@
     </picture>
     <br>
     <img height="40px" src="img/prettier-svgrepo-com.svg" alt="Prettier" />
-    <img height="40px" src="img/deepsource-seeklogo.com.svg" alt="Deep Source" />
-    <img height="40px" src="img/codefactor-icon-svgrepo-com.svg" alt="Code Factor" />
+    <img height="40px" src="https://avatars.githubusercontent.com/u/25180681?v=4" alt="Renovate Bot" />
     <img height="40px" src="img/gitguardian.svg" alt="Gitguardian" />
     <br>
     <img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
