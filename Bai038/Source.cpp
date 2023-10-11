@@ -25,7 +25,7 @@ void Nhap(int a[][500], int n, int m)
 			cin >> a[i][j];
 }
 
-int Kt5m(int a)
+int Kt5mtrendong(int a)
 {
 	int flag = 0;
 	for (int i = 0; i <= a; i++)

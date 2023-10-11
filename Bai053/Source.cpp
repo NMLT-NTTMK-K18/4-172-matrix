@@ -3,7 +3,7 @@ using namespace std;
 
 void Nhap(int[][500], int, int);
 int ktChinhPhuong(int);
-void TongChinhPhuong(int[][500], int, int);
+void DemChinhPhuong(int[][500], int, int);
 
 int main()
 {
@@ -12,7 +12,7 @@ int main()
 	int m;
 	cin >> n >> m;
 	Nhap(a, n, m);
-	TongChinhPhuong(a, n, m);
+	DemChinhPhuong(a, n, m);
 	return 0;
 }
 
