@@ -84,5 +84,5 @@ int DemHoangHau(float a[][500], int m, int n)
 		for (int j = 0; j < n; j++)
 			if (ktHoangHau(a, m, n, i, j) == 1)
 				dem++;
-	return dem
+	return dem;
 }
