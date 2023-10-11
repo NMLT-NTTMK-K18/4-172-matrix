@@ -1,40 +1,34 @@
 #include <iostream>
 using namespace std;
 
-void Nhap(int[][500], int);
-void Xuat(int[][500], int);
+void Nhap(int[][500], int, int);
+void Xuat(int[][500], int, int);
 
 int main()
 {
 	int a[500][500];
 	int n;
+	int m;
+	cin >> n >> m;
 	cin >> n;
-	Nhap(a, n);
-	Xuat(a, n);
+	Nhap(a, n, m);
+	Xuat(a, n, m);
 	return 0;
 }
 
-void Nhap(int a[][500], int n)
+void Nhap(int a[][500], int n, int m)
 {
 	for (int i = 0; i < n; i++)
-		for (int j = 0; j < n; j++)
+		for (int j = 0; j < m; j++)
 			cin >> a[i][j];
 }
 
-void Xuat(int a[][500], int n)
+void Xuat(int a[][500], int n, int m)
 {
 	for (int i = 0; i < n; i++)
 	{
-		for (int j = 0; j < n; j++)
+		for (int j = 0; j < m; j++)
 			cout << a[i][j] << " ";
 		cout << endl;
 	}
-}
-
-void LietKe(int a[][500], int m, int n)
-{
-	for (int i = 0; i < m; i++)
-		for (int j = 0; j < n; j++)
-			if (a[i][j] % 2 == 0)
-				cout << setw(8) << a[i][j];
 }
