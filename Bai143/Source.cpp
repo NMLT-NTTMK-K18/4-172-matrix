@@ -7,7 +7,7 @@ int ktNguyenTo(int);
 int ktChinhPhuong(int);
 void XoaDong(int[][500], int &, int, int);
 void ThucHienXoaDong(int[][500], int, int, int &);
-void XuatMang(int[][500], int, int);
+void XuatMang(int[][500], int, int, int);
 
 int main()
 {
