@@ -25,7 +25,6 @@ List các file `Source.cpp` chưa làm:
 -	[Bai147](Bai147/Source.cpp)
 -	[Bai156](Bai156/Source.cpp)
 -	[Bai040](Bai040/Source.cpp)
--	[Bai066](Bai066/Source.cpp)
 -	[Bai152](Bai152/Source.cpp)
 -	[Bai170](Bai170/Source.cpp)
 -	[Bai149](Bai149/Source.cpp)
