@@ -14,9 +14,11 @@ int main()
 	int a[500][500];
 	int n;
 	int m;
+	int dem;
 	cin >> n >> m;
 	NhapMang(a, n, m);
-	XuatMang(a, n, m);
+	ThucHienXoaDong(a, n, m, dem);
+	XuatMang(a, n, m, dem);
 	return 0;
 }
 
