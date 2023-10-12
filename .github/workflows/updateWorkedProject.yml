@@ -34,4 +34,4 @@ jobs:
           git config --global user.name "GitHub Action"
           git add .
           git commit -m "Auto update WorkedProject"
-          git push orgin main
+          git push
