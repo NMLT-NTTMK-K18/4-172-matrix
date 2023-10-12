@@ -1,15 +1,16 @@
 import re
 import os
 
-re_pattern = r'^Bai[1-9].$'
-re_pattern_readme = r'\[!\[UnworkedProject Badge\].+'
-replace_worked_project_badge = r'[![UnworkedProject Badge](https://img.shields.io/badge/worked_project-{count_worked_files}/{count_projects}-green?style=for-the-badge)](./UnworkedProject.md)'
+re_pattern = r'^Bai[0-9]{3}'
+re_pattern_readme = r'\[!\[WorkedProject Badge\].+'
+replace_worked_project_badge = r'[![WorkedProject Badge](https://img.shields.io/badge/worked_project-{count_worked_files}%2F{count_projects}-green?style=for-the-badge)](./UnworkedProject.md)'
 source_code_filename = 'Source.cpp'
-UnworkedProject_filename = 'UnworkedProject.md'
+README_file_dir = 'docs/README.md'
+UnworkedProject_filename = 'docs/UnworkedProject.md'
 UnworkedProject_file_content = r"""
 ## Unworked projects
 
-List các file {source_code_filename} chưa làm:
+List các file `{source_code_filename}` chưa làm:
 
 """.format(source_code_filename=source_code_filename)
 
@@ -17,9 +18,9 @@ List các file {source_code_filename} chưa làm:
 def listOfProject():
     global directories
     global count_projects
-    if re.match(re_pattern, os.listdir('./')):
-        directories += [project_dir for project_dir in os.listdir(
-            './') if re.match(re_pattern, project_dir) and os.path.isdir(project_dir)]
+    directories = []
+    directories += [project_dir for project_dir in os.listdir(
+        './') if re.match(re_pattern, project_dir) and os.path.isdir(project_dir)]
     count_projects = len(directories)
 
 
@@ -27,23 +28,23 @@ def checkWorkedProject():
     global count_worked_files
     count_worked_files = 0
 
-    with open(UnworkedProject_filename, 'w') as file:
+    with open(UnworkedProject_filename, 'w', encoding='utf8') as file:
         file.write(f'{UnworkedProject_file_content}'.format())
 
     for project_dir in directories:
         if os.path.getsize(os.path.join(project_dir, source_code_filename)) > 75:
             count_worked_files += 1
         else:
-            with open(UnworkedProject_filename, 'a') as file:
+            with open(UnworkedProject_filename, 'a', encoding='utf8') as file:
                 file.write(
                     f'-\t[{project_dir}]({project_dir}/{source_code_filename})\n')
 
 
 def editREADME():
-    with open('README.md', 'r') as file:
+    with open(README_file_dir, 'r', encoding='utf8') as file:
         content = file.readlines()
 
-    with open('README.md', 'w') as file:
+    with open(README_file_dir, 'w', encoding='utf8') as file:
         for line in content:
             if re.match(re_pattern_readme, line):
                 file.write(
