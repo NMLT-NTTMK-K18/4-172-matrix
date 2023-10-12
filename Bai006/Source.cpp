@@ -6,7 +6,7 @@ void Xuat(float[][500], int, int);
 
 int main()
 {
-	float a[500][500];
+	float a[50][500];
 	int m, n;
 	Nhap(a, m, n);
 	Xuat(a, m, n);

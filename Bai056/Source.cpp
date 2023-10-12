@@ -7,7 +7,7 @@ int ktHoanThien(int);
 
 int main()
 {
-	int a[500][500];
+	int a[50][500];
 	int m, n;
 	Nhap(a, m, n);
 

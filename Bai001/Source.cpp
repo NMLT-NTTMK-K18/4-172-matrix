@@ -9,7 +9,7 @@ void Xuat(string, int[][500], int, int);
 
 int main()
 {
-	int a[500][500], m, n;
+	int a[50][500], m, n;
 	TaoMaTran(a, m, n);
 	Xuat(a, m, n);
 	Xuat("data01.inp", a, m, n);
