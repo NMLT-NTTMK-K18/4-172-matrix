@@ -45,20 +45,14 @@ int ktCucTieu(float a[][500], int m, int n, int i, int j)
 	if (i != 0)
 		if (a[i][j] >= a[i - 1][j])
 			return 0;
-
 	if (i != m - 1)
 		if (a[i][j] >= a[i + 1][j])
 			return 0;
-
 	if (j != 0)
 		if (a[i][j] >= a[i][j - 1])
 			return 0;
-
 	if (j != n - 1)
 		if (a[i][j] >= a[i][j + 1])
 			return 0;
-
-	cout << a[i][j] << endl;
-
 	return 1;
 }
