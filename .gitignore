@@ -17,4 +17,4 @@ Bai*/*.exe
 COPY
 
 # Python
-**/*.py
+# **/*.py
