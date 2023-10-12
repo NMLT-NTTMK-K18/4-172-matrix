@@ -1,4 +1,4 @@
-name: Auto Update Worked Project Progress
+name: Auto Update Working Progress
 
 on:
   push:
@@ -15,7 +15,7 @@ permissions: write-all
 
 jobs:
   check:
-    name: Check Worked Project
+    name: Working Progress
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -33,5 +33,5 @@ jobs:
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
           git add .
-          git commit -m "Auto update WorkedProject"
+          git commit -m "✅ Auto update Working Progress"
           git push

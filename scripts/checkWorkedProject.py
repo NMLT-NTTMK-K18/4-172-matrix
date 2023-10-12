@@ -8,7 +8,7 @@ source_code_filename = 'Source.cpp'
 README_file_dir = 'docs/README.md'
 UnworkedProject_filename = 'docs/UnworkedProject.md'
 UnworkedProject_file_content = r"""
-## Unworked projects
+## UNWORKED PROJECTS
 
 List các file `{source_code_filename}` chưa làm:
 
@@ -31,13 +31,15 @@ def checkWorkedProject():
     with open(UnworkedProject_filename, 'w', encoding='utf8') as file:
         file.write(f'{UnworkedProject_file_content}'.format())
 
+    i = 1
     for project_dir in directories:
         if os.path.getsize(os.path.join(project_dir, source_code_filename)) > 75:
             count_worked_files += 1
         else:
             with open(UnworkedProject_filename, 'a', encoding='utf8') as file:
                 file.write(
-                    f'-\t[{project_dir}]({project_dir}/{source_code_filename})\n')
+                    f'{i}.\t[{project_dir}]({project_dir}/{source_code_filename})\n')
+            i += 1
 
 
 def editREADME():
