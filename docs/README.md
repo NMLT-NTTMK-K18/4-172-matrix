@@ -15,7 +15,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/KevinNitroG/NMLT-NTTMK-4-172-matrix?style=for-the-badge)
 [![GitHub contributors](https://img.shields.io/github/contributors/KevinNitroG/NMLT-NTTMK-4-172-matrix?style=for-the-badge)](../../../graphs/contributors)
 
-[![WorkedProject Badge](https://img.shields.io/badge/worked_project-68%2F172-red?style=for-the-badge)](./UnworkedProject.md)
+[![WorkedProject Badge](https://img.shields.io/badge/worked_project-69%2F172-red?style=for-the-badge)](./UnworkedProject.md)
 
 ## TOOL, PLATFORM, BOT, LANG
 
