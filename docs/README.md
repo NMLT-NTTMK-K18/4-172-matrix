@@ -4,8 +4,8 @@
 
 ## MATRIX INPUT SAMPLE FILES
 
-[![Int Matrix input files](https://img.shields.io/badge/int_matrix_inp-download-orange?style=for-the-badge)](../../../../Utilities/download/INP/INT_MATRIX_DATA_INP.zip)
-[![Float Matrix input files](https://img.shields.io/badge/float_matrix_inp-download-yellow?style=for-the-badge)](../../../../Utilities/download/INP/FLOAT_MATRIX_DATA_INP.zip)
+[![Int Matrix input files](https://img.shields.io/badge/int_matrix_inp-download-orange?style=for-the-badge)](../../../../Utilities/releases/download/INP/INT_MATRIX_DATA_INP.zip)
+[![Float Matrix input files](https://img.shields.io/badge/float_matrix_inp-download-yellow?style=for-the-badge)](../../../../Utilities/releases/download/INP/FLOAT_MATRIX_DATA_INP.zip)
 
 ## REPO INFO
 
@@ -13,7 +13,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/KevinNitroG/NMLT-NTTMK-4-172-matrix?style=for-the-badge)
 [![GitHub contributors](https://img.shields.io/github/contributors/KevinNitroG/NMLT-NTTMK-4-172-matrix?style=for-the-badge)](../../../graphs/contributors)
 
-[![WorkedProject Badge](https://img.shields.io/badge/worked_project-73%2F172-red?style=for-the-badge)](./UnworkedProject.md)
+[![WorkedProject Badge](https://img.shields.io/badge/worked_project-79%2F172-red?style=for-the-badge)](./UnworkedProject.md)
 
 ## MEMBERS
 
