@@ -13,7 +13,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/KevinNitroG/NMLT-NTTMK-4-172-matrix?style=for-the-badge)
 [![GitHub contributors](https://img.shields.io/github/contributors/KevinNitroG/NMLT-NTTMK-4-172-matrix?style=for-the-badge)](../../../graphs/contributors)
 
-[![WorkedProject Badge](https://img.shields.io/badge/worked_project-79%2F172-red?style=for-the-badge)](./UnworkedProject.md)
+[![WorkedProject Badge](https://img.shields.io/badge/worked_project-79%2F172-blue?style=for-the-badge)](../UnworkedProject.md)
 
 ## MEMBERS
 
