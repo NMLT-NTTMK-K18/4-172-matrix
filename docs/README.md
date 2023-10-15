@@ -13,14 +13,10 @@
 [![WorkedProject Badge](https://img.shields.io/badge/worked_project-95%2F172-82A0D8?style=for-the-badge)](./UnworkedProject.md)
 [![RAR Source](https://img.shields.io/badge/rar_source-download-FF8080?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_23520623_23521049_23521734_BT04.rar/)
 
----
-
 ## MATRIX INPUT SAMPLE FILES
 
 [![Int Matrix input files](https://img.shields.io/badge/int_matrix_inp-download-orange?style=for-the-badge)](../../../../Utilities/releases/download/INP/INT_MATRIX_DATA_INP.zip)
 [![Float Matrix input files](https://img.shields.io/badge/float_matrix_inp-download-yellow?style=for-the-badge)](../../../../Utilities/releases/download/INP/FLOAT_MATRIX_DATA_INP.zip)
-
----
 
 ## MEMBERS
 
