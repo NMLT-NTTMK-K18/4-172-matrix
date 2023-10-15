@@ -8,7 +8,6 @@ int main()
 {
 	float a[500][500];
 	int m, n;
-	int c;
 
 	Nhap(a, m, n);
 	float dd = DuongDau(a, m, n);
