@@ -15,6 +15,8 @@
 
 [![WorkedProject Badge](https://img.shields.io/badge/worked_project-79%2F172-82A0D8?style=for-the-badge)](./UnworkedProject.md)
 
+[![RAR Source](https://img.shields.io/badge/rar_source-download-FF8080?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_23520623_23521049_23521734_BT04.rar/)
+
 ## MEMBERS
 
 1.  [Trần Nguyễn Thái Bình](https://github.com/KevinNitroG) _(23520161)_
