@@ -13,7 +13,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/KevinNitroG/NMLT-NTTMK-4-172-matrix?style=for-the-badge)
 [![GitHub contributors](https://img.shields.io/github/contributors/KevinNitroG/NMLT-NTTMK-4-172-matrix?style=for-the-badge)](../../../graphs/contributors)
 
-[![WorkedProject Badge](https://img.shields.io/badge/worked_project-79%2F172-82A0D8?style=for-the-badge)](./UnworkedProject.md)
+[![WorkedProject Badge](https://img.shields.io/badge/worked_project-95%2F172-82A0D8?style=for-the-badge)](./UnworkedProject.md)
 
 [![RAR Source](https://img.shields.io/badge/rar_source-download-FF8080?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_23520623_23521049_23521734_BT04.rar/)
 
