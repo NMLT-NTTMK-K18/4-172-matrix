@@ -33,7 +33,7 @@ void Nhap(int a[][500], int& m, int& n, int& col)
 	cin >> col;
 }
 
-int TichCot(int a[500][500], int m, int n, int col)
+int TichCot(int a[][500], int m, int n, int col)
 {
 	int t = 1;
 	for (int i = 0; i < m; i++)

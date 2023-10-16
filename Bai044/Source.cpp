@@ -41,7 +41,7 @@ bool Kt(float x)
 	return false;
 }
 
-float TichCot(float a[500][500], int m, int n, int col)
+float TichCot(float a[][500], int m, int n, int col)
 {
 	float t = 1;
 	for (int i = 0; i < m; i++)

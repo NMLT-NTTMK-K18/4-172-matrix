@@ -15,7 +15,7 @@ int main()
 	return 0;
 }
 
-void Nhap(int a[500][500], int& m, int& n)
+void Nhap(int a[][500], int& m, int& n)
 {
 	cout << "Nhap so dong cua ma tran: ";
 	cin >> m;
@@ -45,7 +45,7 @@ bool KtDang5m(int x)
 	return true;
 }
 
-void Tong5mTrenBien(int a[500][500], int m, int n)
+void Tong5mTrenBien(int a[][500], int m, int n)
 {
 	if (m < 2 && n < 2)
 		cout << "Ma tran khong co bien";
