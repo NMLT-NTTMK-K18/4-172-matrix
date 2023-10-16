@@ -40,19 +40,15 @@ float TongCucTieu(float a[][500], int m, int n)
 	return sum;
 }
 
-int ktCucTieu(float a[][500], int m, int n, int i, int j)
+int ktCucTieu(float a[][500], int m, int n, int d, int c)
 {
-	if (i != 0)
-		if (a[i][j] >= a[i - 1][j])
-			return 0;
-	if (i != m - 1)
-		if (a[i][j] >= a[i + 1][j])
-			return 0;
-	if (j != 0)
-		if (a[i][j] >= a[i][j - 1])
-			return 0;
-	if (j != n - 1)
-		if (a[i][j] >= a[i][j + 1])
-			return 0;
-	return 1;
+	int flag = 1;
+	for (int di = -1; di <= 1; di++)
+		for (int dj = -1; dj <= 1; dj++)
+			if (d + di >= 0 && d + di < m &&
+				c + dj >= 0 && c + dj < n &&
+				!(di == 0 && dj == 0) &&
+				a[d + di][c + dj] > a[d][c])
+				flag = 0;
+	return flag;
 }
