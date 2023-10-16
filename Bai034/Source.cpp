@@ -47,7 +47,7 @@ bool KtNguyento(int x)
 	return false;
 }
 
-int TongDong(int a[500][500], int m, int n, int row)
+int TongDong(int a[][500], int m, int n, int row)
 {
 	int s = 0;
 	for (int j = 0; j < n; j++)

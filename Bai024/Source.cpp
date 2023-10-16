@@ -30,7 +30,7 @@ void Nhap(int a[][500], int& m, int& n)
 		}
 }
 
-int TongChan(int a[500][500], int m, int n)
+int TongChan(int a[][500], int m, int n)
 {
 	int s = 0;
 	for (int i = 0; i < m; i++)
