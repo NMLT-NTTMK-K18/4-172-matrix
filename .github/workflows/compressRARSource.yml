@@ -40,4 +40,6 @@ jobs:
           file: ${{ env.RAR_SOURCE_NAME }}.rar
           tag: RAR
           release_name: RAR Source Code
+          overwrite: true
+          promote: true
           body: "Rar source code để nộp bài, không bao gồm các file ngoài Visual Studio"
