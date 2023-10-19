@@ -6,7 +6,7 @@
 #include <string>
 using namespace std;
 
-void Nhap(float[][500], int, int);
+void Nhap(string,float[][500], int, int);
 void Xuat(float[][500], int, int);
 
 
@@ -14,9 +14,10 @@ int main()
 {
 	float a[500][500];
 	int m, n;
-	cin >> m >> n;
-	string fileName = "intdata02.inp";
-	Nhap(fileName, a, m, n);
+	cin>>m;
+	cin>>n;
+	string filename = "intdata02.inp";
+	Nhap(filename, a, m, n);
 	Xuat(a, m, n);
 	
 	return 0;
@@ -25,6 +26,7 @@ int main()
 void Nhap(string filename, float a[][500], int m, int n)
 {
 	ifstream fi(filename);
+		cin>>m>>n;
 	for (int i = 0; i < m; i++)
 		for (int j = 0; j < n; j++)
 			fi >> a[i][j];
