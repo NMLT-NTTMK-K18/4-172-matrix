@@ -12,6 +12,7 @@
 
 [![WorkedProject Badge](https://img.shields.io/badge/worked_project-113%2F172-82A0D8?style=for-the-badge)](./UnworkedProject.md)
 [![RAR Source](https://img.shields.io/badge/rar_source-download-FF8080?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_23520623_23521049_23521734_BT04.rar/)
+[![TXT Github Link](https://img.shields.io/badge/txt_github_link-download-8CB369?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_23520623_23521049_23521734_BT04.txt/)
 
 ## MATRIX INPUT SAMPLE FILES
 
