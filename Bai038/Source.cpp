@@ -38,7 +38,7 @@ void Tong5m(int a[][500], int n, int m, int k)
 {
 	int s = 0;
 	for (int i = 0; i < m; i++)
-		if (Kt5m(a[k][i]))
+		if (Kt5mtrendong(a[k][i]))
 			s += a[k][i];
 	cout << s;
 }
