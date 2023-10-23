@@ -2,15 +2,15 @@
 #include <iomanip>
 using namespace std;
 
-void Nhap(int[][500], int&, int&);
+void Nhap(int[][100], int&, int&);
 int DemChuSo(int);
-int DemCot(int[][500], int, int, int);
-int DemLonNhat(int[][500], int, int);
-void LietKe(int[][500], int, int);
+int DemCot(int[][100], int, int, int);
+int DemLonNhat(int[][100], int, int);
+void LietKe(int[][100], int, int);
 
 int main()
 {
-	int a[500][500];
+	int a[100][100];
 	int m, n;
 
 	Nhap(a, m, n);
@@ -18,7 +18,7 @@ int main()
 	return 0;
 }
 
-void Nhap(int a[][500], int& m, int& n)
+void Nhap(int a[][100], int& m, int& n)
 {
 	cout << "Nhap so hang: ";
 	cin >> m;
@@ -44,7 +44,7 @@ int DemChuSo(int k)
 	return dem;
 }
 
-int DemCot(int a[][500], int m, int n, int c)
+int DemCot(int a[][100], int m, int n, int c)
 {
 	int demlnc = DemChuSo(a[0][c]);
 	for (int i = 0; i < m; i++)
@@ -53,17 +53,17 @@ int DemCot(int a[][500], int m, int n, int c)
 	return demlnc;
 }
 
-int DemLonNhat(int a[][500], int m, int n)
+int DemLonNhat(int a[][100], int m, int n)
 {
 	int demln = DemChuSo(a[0][0]);
 	for (int i = 0; i < m; i++)
 		for (int j = 0; j < n; j++)
-			if (DemChuSo(a[i][j] > demln))
+			if (DemChuSo(a[i][j]) > demln)
 				demln = DemChuSo(a[i][j]);
 	return demln;
 }
 
-void LietKe(int a[][500], int m, int n)
+void LietKe(int a[][100], int m, int n)
 {
 	for (int j = 0; j < n; j++)
 		if (DemLonNhat(a, m, n) == DemCot(a, m, n, j))
