@@ -15,7 +15,7 @@ int main()
 	cout << "Ma tran 3x3 toan am cuoi cung: " << endl;
 	int vtd, vtc;
 	ConCuoi(a, m, n, vtd, vtc);
-	if (vtd == vtc && vtd != -1)
+	if (vtd == vtc && vtd == -1)
 		cout << "Khong co ma tran 3x3 toan am" << endl;
 	else
 		Xuat(a, vtd, vtc);
