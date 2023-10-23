@@ -21,4 +21,3 @@ List các file `Source.cpp` chưa làm:
 16.	[Bai160](../Bai160/Source.cpp)
 17.	[Bai165](../Bai165/Source.cpp)
 18.	[Bai170](../Bai170/Source.cpp)
-19.	[Bai172](../Bai172/Source.cpp)
