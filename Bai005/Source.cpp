@@ -34,7 +34,7 @@ void Xuat(float a[][500], int m, int n)
 	for (int i = 0; i < m; i++)
 	{
 		for (int j = 0; j < n; j++)
-			cout << fixed << setprecision(2) << a[i][j] << setw(10);
+			cout << setw(10) << fixed << setprecision(2) << a[i][j];
 		cout << endl;
 	}
 }
