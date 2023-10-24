@@ -1,6 +1,6 @@
 # 4 - 172 - MATRIX 🫠
 
-![STT - 4](https://img.shields.io/badge/STT-4-82A0D8?style=for-the-badge)
+![STT - 4](https://img.shields.io/badge/STT-4-EDB7ED?style=for-the-badge)
 ![Bài tập - 172 Matrix](https://img.shields.io/badge/b%C3%A0i_t%E1%BA%ADp-172_matrix-8DDFCB?style=for-the-badge)
 ![Ải - 6](https://img.shields.io/badge/%E1%BA%A3i-6-ECEE81?style=for-the-badge)
 
