@@ -1,6 +1,8 @@
-# 172 MATRIX 🫠
+# 4 - 172 - MATRIX 🫠
 
-**Ải 6:** Bài tập thực hành 4 - `172 Matrix`
+![STT - 4](https://img.shields.io/badge/STT-4-82A0D8?style=for-the-badge)
+![Bài tập - 172 Matrix](https://img.shields.io/badge/b%C3%A0i_t%E1%BA%ADp-172_matrix-8DDFCB?style=for-the-badge)
+![Ải - 6](https://img.shields.io/badge/%E1%BA%A3i-6-ECEE81?style=for-the-badge)
 
 ---
 
@@ -18,6 +20,8 @@
 
 [![Int Matrix input files](https://img.shields.io/badge/int_matrix_inp-download-CAEDFF?style=for-the-badge)](../../../../Utilities/releases/download/INP/INT_MATRIX_DATA_INP.zip)
 [![Float Matrix input files](https://img.shields.io/badge/float_matrix_inp-download-D8B4F8?style=for-the-badge)](../../../../Utilities/releases/download/INP/FLOAT_MATRIX_DATA_INP.zip)
+
+---
 
 ## MEMBERS
 
