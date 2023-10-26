@@ -12,7 +12,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/NMLT-NTTMK-K18/4-172-matrix?style=for-the-badge&color=D8B4F8)
 [![GitHub contributors](https://img.shields.io/github/contributors/NMLT-NTTMK-K18/4-172-matrix?style=for-the-badge&color=FBF0B2)](../../../graphs/contributors)
 
-[![CodeFactor](https://www.codefactor.io/repository/github/nmlt-nttmk-k18/4-172-matrix/badge)](https://www.codefactor.io/repository/github/nmlt-nttmk-k18/4-172-matrix)
+[![CodeFactor](https://img.shields.io/codefactor/grade/github/nmlt-nttmk-k18/4-172-matrix?style=for-the-badge)](https://www.codefactor.io/repository/github/nmlt-nttmk-k18/4-172-matrix)
 
 [![WorkedProject Badge](https://img.shields.io/badge/progress-172%20%2F%20172-82A0D8?style=for-the-badge)](./UnworkedProject.md)
 [![RAR Source](https://img.shields.io/badge/rar_source-download-FF8080?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_23520623_23521049_23521734_BT04.rar/)
